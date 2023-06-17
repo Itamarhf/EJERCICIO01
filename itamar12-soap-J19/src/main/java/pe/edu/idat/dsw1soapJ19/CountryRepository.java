@@ -1,4 +1,4 @@
-package pe.edu.idat.dsw1soapJ19;
+package pe.edu.idat.itamar12soapJ19;
 
 import io.spring.guides.gs_producing_web_service.Day;
 import jakarta.annotation.PostConstruct;
