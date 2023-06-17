@@ -1,0 +1,37 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://spring.io/guides/gs-producing-web-service"
+           targetNamespace="http://spring.io/guides/gs-producing-web-service" elementFormDefault="qualified">
+
+    <xs:element name="getDayReq">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getDayRes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="translation" type="tns:day"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="day">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="days">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="LUNES"/>
+            <xs:enumeration value="MARES"/>
+            <xs:enumeration value="MIERCOLES"/>
+            <xs:enumeration value="JUEVES"/>
+            <xs:enumeration value="VIERNES"/>
+            <xs:enumeration value="SABADO"/>
+            <xs:enumeration value="DOMINGO"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
