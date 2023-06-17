@@ -1,4 +1,4 @@
-package pe.edu.idat.dsw1soapJ19;
+package pe.edu.idat.itamar12soapJ19;
 
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
