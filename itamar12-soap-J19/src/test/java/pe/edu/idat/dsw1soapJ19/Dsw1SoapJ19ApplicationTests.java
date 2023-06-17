@@ -1,4 +1,4 @@
-package pe.edu.idat.dsw1soapJ19;
+package pe.edu.idat.itamar12soapJ19;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
