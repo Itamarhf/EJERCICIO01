@@ -1,6 +1,6 @@
 
 
-POST http://localhost:3000/ws
+POST http://localhost:8080/ws
 
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:gs="http://spring.io/guides/gs-producing-web-service">
    <soapenv:Header/>
